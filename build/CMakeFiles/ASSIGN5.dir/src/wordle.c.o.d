@@ -1,0 +1,34 @@
+CMakeFiles/ASSIGN5.dir/src/wordle.c.o: \
+ /home/dirtyv/Codes/Assignment_5_FAZU/src/wordle.c \
+ /home/dirtyv/Codes/Assignment_5_FAZU/inc/wordle.h \
+ /usr/x86_64-w64-mingw32/include/stdio.h \
+ /usr/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+ /usr/x86_64-w64-mingw32/include/corecrt.h \
+ /usr/x86_64-w64-mingw32/include/_mingw.h \
+ /usr/x86_64-w64-mingw32/include/_mingw_mac.h \
+ /usr/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ /usr/x86_64-w64-mingw32/include/vadefs.h \
+ /usr/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ /usr/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ /usr/x86_64-w64-mingw32/include/swprintf.inl \
+ /usr/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ /usr/x86_64-w64-mingw32/include/stdlib.h \
+ /usr/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h \
+ /usr/x86_64-w64-mingw32/include/limits.h \
+ /usr/x86_64-w64-mingw32/include/crtdefs.h \
+ /usr/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ /usr/x86_64-w64-mingw32/include/malloc.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+ /usr/x86_64-w64-mingw32/include/errno.h \
+ /usr/x86_64-w64-mingw32/include/string.h \
+ /usr/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ /usr/x86_64-w64-mingw32/include/ctype.h \
+ /usr/x86_64-w64-mingw32/include/time.h \
+ /usr/x86_64-w64-mingw32/include/sys/timeb.h \
+ /usr/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ /usr/x86_64-w64-mingw32/include/_timeval.h \
+ /usr/x86_64-w64-mingw32/include/pthread_time.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdbool.h \
+ /home/dirtyv/Codes/Assignment_5_FAZU/inc/runtime_assert.h

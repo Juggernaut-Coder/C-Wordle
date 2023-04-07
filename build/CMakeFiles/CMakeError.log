@@ -1,0 +1,66 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/dirtyv/Codes/Assignment_5_FAZU/build/CMakeFiles/CMakeScratch/TryCompile-xFQ1kz
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dcc1e/fast && /usr/bin/make  -f CMakeFiles/cmTC_dcc1e.dir/build.make CMakeFiles/cmTC_dcc1e.dir/build
+make[1]: Entering directory '/home/dirtyv/Codes/Assignment_5_FAZU/build/CMakeFiles/CMakeScratch/TryCompile-xFQ1kz'
+Building C object CMakeFiles/cmTC_dcc1e.dir/CMakeCCompilerABI.c.o
+/usr/bin/x86_64-w64-mingw32-gcc   -Wall -Wextra    -v -std=gnu17 -o CMakeFiles/cmTC_dcc1e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-gcc
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-12.2.0/configure --prefix=/usr --with-sysroot=/usr/x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-werror --disable-nls --disable-multilib --disable-gcov --disable-libcc1 --enable-lto --enable-shared --enable-static --enable-threads=posix --with-system-zlib --enable-languages=c,c++,lto
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-Wall' '-Wextra' '-v' '-std=gnu17' '-o' 'CMakeFiles/cmTC_dcc1e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dcc1e.dir/'
+ /usr/libexec/gcc/x86_64-w64-mingw32/12.2.0/cc1 -quiet -v -D_REENTRANT /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_dcc1e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -Wall -Wextra -std=gnu17 -version -o /tmp/ccDDFs0l.s
+GNU C17 (GCC) version 12.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 10.2.1 20201203, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/x86_64-w64-mingw32/usr/local/include"
+ignoring nonexistent directory "/usr/x86_64-w64-mingw32/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-w64-mingw32/12.2.0/include
+ /usr/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed
+ /usr/lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (GCC) version 12.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 10.2.1 20201203, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b44824462a75b92dd432a57673d9f132
+COLLECT_GCC_OPTIONS='-Wall' '-Wextra' '-v' '-std=gnu17' '-o' 'CMakeFiles/cmTC_dcc1e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dcc1e.dir/'
+ /usr/lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/as -v -o CMakeFiles/cmTC_dcc1e.dir/CMakeCCompilerABI.c.o /tmp/ccDDFs0l.s
+GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39
+COMPILER_PATH=/usr/libexec/gcc/x86_64-w64-mingw32/12.2.0/:/usr/libexec/gcc/x86_64-w64-mingw32/12.2.0/:/usr/libexec/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/12.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/12.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/
+COLLECT_GCC_OPTIONS='-Wall' '-Wextra' '-v' '-std=gnu17' '-o' 'CMakeFiles/cmTC_dcc1e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_dcc1e.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_dcc1e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dcc1e.dir/link.txt --verbose=1
+/usr/bin/x86_64-w64-mingw32-gcc  -Wall -Wextra   -v CMakeFiles/cmTC_dcc1e.dir/CMakeCCompilerABI.c.o -o cmTC_dcc1e 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-gcc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-12.2.0/configure --prefix=/usr --with-sysroot=/usr/x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-werror --disable-nls --disable-multilib --disable-gcov --disable-libcc1 --enable-lto --enable-shared --enable-static --enable-threads=posix --with-system-zlib --enable-languages=c,c++,lto
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-w64-mingw32/12.2.0/:/usr/libexec/gcc/x86_64-w64-mingw32/12.2.0/:/usr/libexec/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/12.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/12.2.0/:/usr/lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/
+COLLECT_GCC_OPTIONS='-Wall' '-Wextra' '-v' '-o' 'cmTC_dcc1e.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dcc1e.'
+ /usr/libexec/gcc/x86_64-w64-mingw32/12.2.0/collect2 -plugin /usr/libexec/gcc/x86_64-w64-mingw32/12.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-w64-mingw32/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaKn0hO.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/usr/x86_64-w64-mingw32 -m i386pep -Bdynamic -o cmTC_dcc1e.exe /usr/lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/12.2.0/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/12.2.0 -L/usr/lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib/../lib -L/usr/lib/gcc/x86_64-w64-mingw32/12.2.0/../../../../x86_64-w64-mingw32/lib CMakeFiles/cmTC_dcc1e.dir/CMakeCCompilerABI.c.o -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 /usr/lib/gcc/x86_64-w64-mingw32/12.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-Wall' '-Wextra' '-v' '-o' 'cmTC_dcc1e.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_dcc1e.'
+make[1]: Leaving directory '/home/dirtyv/Codes/Assignment_5_FAZU/build/CMakeFiles/CMakeScratch/TryCompile-xFQ1kz'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  '/home/dirtyv/Codes/Assignment_5_FAZU/build/CMakeFiles/3.25.0/CMakeDetermineCompilerABI_C.bin'
+Recorded try_compile output location doesn't exist:
+  /home/dirtyv/Codes/Assignment_5_FAZU/build/CMakeFiles/CMakeScratch/TryCompile-xFQ1kz/cmTC_dcc1e
+
+

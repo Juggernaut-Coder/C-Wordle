@@ -1,0 +1,25 @@
+cmake_minimum_required(VERSION 3.16)
+#COMPIER
+set(CMAKE_SYSTEM_NAME Linux)
+set(CMAKE_C_COMPILER "x86_64-w64-mingw32-gcc") 
+set(CMAKE_C_STANDARD 17) 
+set(CMAKE_C_STANDARD_REQUIRED ON)
+#FLAGS
+set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -O0 -ggdb3") 
+set(CMAKE_SHARED_LIBRARY_LINK_C_FLAGS "")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -Wextra")
+
+#PROJECT
+project(WORDLE LANGUAGES C)
+enable_language(C)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+
+# HOW TO COMPILE AND FILE LOCATIONS
+set(SRC "${CMAKE_CURRENT_SOURCE_DIR}/src") 
+set(INC "${CMAKE_CURRENT_SOURCE_DIR}/inc")
+
+include_directories(BEFORE ${INC})
+
+file(GLOB_RECURSE LIB_SRC "${SRC}/*.c") 
+add_executable(ASSIGN5 "${LIB_SRC}")
+#target_compile_options(FWORDLE PUBLIC -O0 -ggdb3 -std=c17 -Wall -Wextra)

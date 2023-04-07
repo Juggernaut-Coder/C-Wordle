@@ -1,0 +1,29 @@
+The target system is: Linux -  - 
+The host system is: Linux - 6.0.11_1 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/x86_64-w64-mingw32-gcc 
+Build flags: ;-Wall;-Wextra
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "/home/dirtyv/Codes/Assignment_5_FAZU/build/CMakeFiles/3.25.0/CompilerIdC/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/dirtyv/Codes/Assignment_5_FAZU/build/CMakeFiles/CMakeScratch/TryCompile-Xexszx
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_386a0/fast && /usr/bin/make  -f CMakeFiles/cmTC_386a0.dir/build.make CMakeFiles/cmTC_386a0.dir/build
+make[1]: Entering directory '/home/dirtyv/Codes/Assignment_5_FAZU/build/CMakeFiles/CMakeScratch/TryCompile-Xexszx'
+Building C object CMakeFiles/cmTC_386a0.dir/testCCompiler.c.o
+/usr/bin/x86_64-w64-mingw32-gcc   -Wall -Wextra  -std=gnu17 -o CMakeFiles/cmTC_386a0.dir/testCCompiler.c.o -c /home/dirtyv/Codes/Assignment_5_FAZU/build/CMakeFiles/CMakeScratch/TryCompile-Xexszx/testCCompiler.c
+Linking C executable cmTC_386a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_386a0.dir/link.txt --verbose=1
+/usr/bin/x86_64-w64-mingw32-gcc  -Wall -Wextra  CMakeFiles/cmTC_386a0.dir/testCCompiler.c.o -o cmTC_386a0 
+make[1]: Leaving directory '/home/dirtyv/Codes/Assignment_5_FAZU/build/CMakeFiles/CMakeScratch/TryCompile-Xexszx'
+
+
+

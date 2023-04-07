@@ -1,0 +1,1 @@
+/usr/bin/x86_64-w64-mingw32-gcc  -Wall -Wextra CMakeFiles/ASSIGN5.dir/src/main.c.o CMakeFiles/ASSIGN5.dir/src/wordle.c.o -o /home/dirtyv/Codes/Assignment_5_FAZU/ASSIGN5 
